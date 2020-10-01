@@ -6,7 +6,13 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
-from credentials import *
+import collections
+#from credentials import *
+
+access_token = "xxx"                                                            
+access_token_secret = "xxx"                                                     
+consumer_key = "xxx"                                                            
+consumer_secret = "xxx" 
 
 # Pass OAuth details to tweepy's OAuth handler
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -14,7 +20,7 @@ auth.set_access_token(access_token, access_token_secret)
 
 TRACKING_KEYWORDS = ['Covid']
 OUTPUT_FILE = "Covid_tweets.txt"
-TWEETS_TO_CAPTURE = 500
+TWEETS_TO_CAPTURE = 3000
 
 class MyStreamListener(tweepy.StreamListener):
     """
@@ -172,11 +178,10 @@ plt.figure(figsize = (20,20))
 nx.draw(graph, pos=pos, node_color=range(graph.number_of_nodes()), cmap=plt.cm.PiYG, edge_color="black", linewidths=0.3, node_size=60, alpha=0.6, with_labels=False)
 #nx.draw_networkx_nodes(graph, pos=pos, nodelist=central_nodes, node_size=300, node_color=colors_central_nodes)
 plt.savefig('graphfinal.png')
-#plt.show()
+plt.show()
 
 
-# In[15]:
-
+# measurements : degree distribution
 
 degree_sequence = sorted([d for n, d in graph.degree()], reverse=True)  # degree sequence
 degreeCount = collections.Counter(degree_sequence)                      
@@ -193,30 +198,40 @@ ax.set_xticklabels(deg)
                                                                                 
 # draw graph in inset                                                           
 plt.axes([0.4, 0.4, 0.5, 0.5])                                                 
-#Gcc = graph.subgraph(sorted(nx.connected_components(graph), key=len, reverse=True)[0])  
 pos = nx.spring_layout(graph)         
 plt.savefig('degree_histogram.png')
 plt.axis("off")                                                                 
-#plt.show()
+plt.show()
 
 
-# In[34]:
-
-
-Clustering_coefficient = nx.clustering(graph)                      
+# measurements : closeness, betweeness, and clustering coefficient
 Closeness = nx.closeness_centrality(graph)
 Betweeness = nx.betweenness_centrality(graph)
-print("------Clustering Coefficients-------")
-for key, value in Clustering_coefficient.items() :
-    print("user ID :", key, ", value : ",value)
-print("------Closeness-------")
-for key, value in Closeness.items() :
-    print("user ID :", key, ", value : ",value)
-print("------Betweeness-------")
-for key, value in Betweeness.items() :
-    print("user ID :", key, ", value : ",value)
+Clustering_coefficient = nx.clustering(graph)                      
+n_bins = 20
 
-with open("measures.txt", "w+") as f:
-    f.write(str(Clustering_coefficient))
-    f.write(str(Closeness))
-    f.write(str(Betweeness))
+fig, axs = plt.subplots()#1, 1, sharey=True, tight_layout=True)
+y = [item for key, item in Closeness.items()]
+plt.title("Closeness")                                                   
+plt.ylabel("Value")                                                             
+plt.xlabel("Node count")                                                            
+axs.hist(y,bins=n_bins, density=False, orientation='horizontal')
+plt.show()
+
+
+fig, axs = plt.subplots()#1, 1, sharey=True, tight_layout=True)
+y = [item for key, item in Betweeness.items()]
+plt.title("Betweeness")                                                   
+plt.ylabel("Value")                                                             
+plt.xlabel("Node count")                                                            
+axs.hist(y,bins=n_bins, density=False, orientation='horizontal')
+plt.show()
+
+
+fig, axs = plt.subplots()
+y = [item for key, item in Clustering_coefficient.items()]
+plt.title("Clustering_coefficient")                                                   
+plt.ylabel("Value")                                                             
+plt.xlabel("Node count")                                                            
+axs.hist(y,bins=n_bins, density=False, orientation='horizontal')
+plt.show()
