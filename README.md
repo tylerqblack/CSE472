@@ -11,7 +11,7 @@ Let's see 2&3 when we have some time to expand our model.
 
 ## Dataset
 1. vendor-purchased-2019
-+ This dataset is proposed in the paper"Arming the public with artificial intelligence to counter social bots."
++ This dataset is proposed in "Arming the public with artificial intelligence to counter social bots."
 + Some of profile_image_url_https are not able to access (Page not found)
 
 ### Sample data
