@@ -12,6 +12,7 @@ Let's see 2&3 when we have some time to expand our model.
 1. https://github.com/lminy/BotDetector
 + This code is from "Fame for sale: efficient detection of fake Twitter followers"
 + There is no dataset directory in this github, and it will be not able to execute.
++ If you want, you can include dataset from this [URL](https://botometer.osome.iu.edu/bot-repository/datasets/cresci-2015/cresci-2015.csv.tar.gz)
 
 ## Dataset (Fake follower detection)
 1. vendor-purchased-2019
