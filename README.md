@@ -10,7 +10,8 @@ Let's see 2&3 when we have some time to expand our model.
 
 ## Tutorial (Fake follower detection)
 1. https://github.com/lminy/BotDetector
-+ This code & dataset is from "Fame for sale: efficient detection of fake Twitter followers"
++ This code is from "Fame for sale: efficient detection of fake Twitter followers"
++ There is no dataset directory in this github, and it will be not able to execute.
 
 ## Dataset (Fake follower detection)
 1. vendor-purchased-2019
