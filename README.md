@@ -15,7 +15,7 @@ Let's see 2&3 when we have some time to expand our model.
 + If you want, you can include dataset from this [URL](https://botometer.osome.iu.edu/bot-repository/datasets/cresci-2015/cresci-2015.csv.tar.gz)
 
 ## Dataset (Fake follower detection)
-1. vendor-purchased-2019
+1. [vendor-purchased-2019](https://botometer.osome.iu.edu/bot-repository/datasets/vendor-purchased-2019/vendor-purchased-2019.tar.gz)
 + This dataset is proposed in "Arming the public with artificial intelligence to counter social bots."
 + Some of profile_image_url_https are not able to access (Page not found)
 
