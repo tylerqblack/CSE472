@@ -11,7 +11,6 @@ Let's see 2&3 when we have some time to expand our model.
 
 ## Dataset
 1. vendor-purchased-2019 : Dataset from "Arming the public with artificial intelligence to counter social bots."
-<code>
 [                                                                               
     {                                                                           
         "created_at": "Tue Jan 09 16:38:26 +0000 2018",                         
@@ -63,5 +62,4 @@ Let's see 2&3 when we have some time to expand our model.
             "following": "false"                                                
         }                                                                       
     }                                                                           
-]                                                                               
-~        </code>
+]                
