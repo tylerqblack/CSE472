@@ -8,6 +8,9 @@
 
 Let's see 2&3 when we have some time to expand our model.
 
+## Tutorial
+1. https://github.com/lminy/BotDetector
++ This code & dataset is from "Fame for sale: efficient detection of fake Twitter followers"
 
 ## Dataset
 1. vendor-purchased-2019
