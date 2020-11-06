@@ -1,4 +1,4 @@
-# CSE472
+# Google Doc [LINK](https://docs.google.com/document/d/1O_iEl2x9zU2b3h1-YfiPune_lA1jrv59NLKKLneoFb8/edit)
 
 ## Papers (AI-bot detection)
 
