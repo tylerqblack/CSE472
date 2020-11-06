@@ -1,6 +1,6 @@
 # CSE472
 
-## Papers
+## Papers (AI-bot detection)
 
 1. LOBO – Evaluation of Generalization Deficiencies in Twitter Bot Classifiers : https://arxiv.org/abs/1809.09684
 2. Better Safe Than Sorry: an Adversarial Approach to improve Social Bot Detection : https://arxiv.org/abs/1904.05132
@@ -8,11 +8,11 @@
 
 Let's see 2&3 when we have some time to expand our model.
 
-## Tutorial
+## Tutorial (Fake follower detection)
 1. https://github.com/lminy/BotDetector
 + This code & dataset is from "Fame for sale: efficient detection of fake Twitter followers"
 
-## Dataset
+## Dataset (Fake follower detection)
 1. vendor-purchased-2019
 + This dataset is proposed in "Arming the public with artificial intelligence to counter social bots."
 + Some of profile_image_url_https are not able to access (Page not found)
