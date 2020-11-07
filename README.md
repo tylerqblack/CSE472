@@ -19,7 +19,7 @@ Let's see 2&3 when we have some time to expand our model.
 + This dataset is proposed in "Arming the public with artificial intelligence to counter social bots."
 + Some of profile_image_url_https are not able to access (Page not found)
 2. [Fame for sale](https://botometer.osome.iu.edu/bot-repository/datasets/cresci-2015/cresci-2015.csv.tar.gz)
-+ E13 and TWT are Human / FSF, INT, and TFp are Bot
++ E13 and TFP are Human / FSF, INT, and TWT are Bot
 ### Sample data [vendor-purchased-2019]
 [                                                                               
     {                                                                           
