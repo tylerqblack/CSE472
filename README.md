@@ -1,5 +1,12 @@
 # Google Doc [LINK](https://docs.google.com/document/d/1O_iEl2x9zU2b3h1-YfiPune_lA1jrv59NLKKLneoFb8/edit)
 
+## Progress
+1. Getting two features(friends/follower ratio, is "bot" in user name?) from Bot dataset(vendor-purchased-19) and Human dataset(TFP, E13)
+2. Bot_Feature_Extraction.ipyb -> bot_features.pkl
+3. Hum_Feature_Extraction.ipyb -> hum_features.pkl
+4. Fake_Follower_Classifier.ipyb -> Train KNN and MLP and evaluation matrix
+5. Final result is about 80% accuracy.
+
 ## Papers (AI-bot detection)
 
 1. LOBO – Evaluation of Generalization Deficiencies in Twitter Bot Classifiers : https://arxiv.org/abs/1809.09684
