@@ -18,8 +18,9 @@ Let's see 2&3 when we have some time to expand our model.
 1. [vendor-purchased-2019](https://botometer.osome.iu.edu/bot-repository/datasets/vendor-purchased-2019/vendor-purchased-2019.tar.gz)
 + This dataset is proposed in "Arming the public with artificial intelligence to counter social bots."
 + Some of profile_image_url_https are not able to access (Page not found)
-
-### Sample data
+2. [Fame for sale](https://botometer.osome.iu.edu/bot-repository/datasets/cresci-2015/cresci-2015.csv.tar.gz)
++ E13 and TWT are Human / FSF, INT, and TFp are Bot
+### Sample data [vendor-purchased-2019]
 [                                                                               
     {                                                                           
         "created_at": "Tue Jan 09 16:38:26 +0000 2018",                         
