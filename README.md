@@ -2,9 +2,9 @@
 
 ## Progress
 1. Getting two features(friends/follower ratio, is "bot" in user name?) from Bot dataset(vendor-purchased-19) and Human dataset(TFP, E13)
-2. Bot_Feature_Extraction.ipyb -> bot_features.pkl
-3. Hum_Feature_Extraction.ipyb -> hum_features.pkl
-4. Fake_Follower_Classifier.ipyb -> Train KNN and MLP and evaluation matrix
+2. Bot_Feature_Extraction.ipynb -> bot_features.pkl
+3. Hum_Feature_Extraction.ipynb -> hum_features.pkl
+4. Fake_Follower_Classifier.ipynb -> Train KNN and MLP and evaluation matrix
 5. Final result is about 80% accuracy.
 
 ## Papers (AI-bot detection)
