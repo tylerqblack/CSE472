@@ -1,4 +1,4 @@
-# Report [LINK](https://docs.google.com/document/d/1O_iEl2x9zU2b3h1-YfiPune_lA1jrv59NLKKLneoFb8/edit)
+# Final Report [LINK](https://docs.google.com/document/d/1O_iEl2x9zU2b3h1-YfiPune_lA1jrv59NLKKLneoFb8/edit): Detailed content is written in this file 
 
 ## Procedure
 1. We used 16 features per each extractor in .ipynb
@@ -17,7 +17,7 @@
 4. Better Safe Than Sorry: an Adversarial Approach to improve Social Bot Detection : https://arxiv.org/abs/1904.05132
 5. Using Improved Conditional Generative Adversarial Networks to Detect Social Bots on Twitter : https://ieeexplore.ieee.org/document/9006873
 
-## Dataset Download [LINK]
+## Dataset Download [LINK](https://drive.google.com/drive/folders/157pcedewvyJLXBpxL7y2LJSp3MiGS8tc?usp=sharing) : Put /datasets directory within the same location of our .ipynb
 1. [vendor-purchased-2019](https://botometer.osome.iu.edu/bot-repository/datasets/vendor-purchased-2019/vendor-purchased-2019.tar.gz)
 + This dataset is proposed in "Arming the public with artificial intelligence to counter social bots."
 + Some of profile_image_url_https are not able to access (Page not found)
