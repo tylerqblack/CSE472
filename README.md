@@ -11,8 +11,8 @@
 5. Final result is about 99% accuracy.
 
 ## Papers
-1. [new] An enhanced graph‑based semi‑supervised learning algorithm to detect fake users on Twitter (uploaded in github)
-2. [new] THE ART OF SOCIAL BOTS: A REVIEW AND A REFINED TAXONOMY (uploaded in github)
+1. An enhanced graph‑based semi‑supervised learning algorithm to detect fake users on Twitter (uploaded in github)
+2. THE ART OF SOCIAL BOTS: A REVIEW AND A REFINED TAXONOMY (uploaded in github)
 3. LOBO – Evaluation of Generalization Deficiencies in Twitter Bot Classifiers : https://arxiv.org/abs/1809.09684
 4. Better Safe Than Sorry: an Adversarial Approach to improve Social Bot Detection : https://arxiv.org/abs/1904.05132
 5. Using Improved Conditional Generative Adversarial Networks to Detect Social Bots on Twitter : https://ieeexplore.ieee.org/document/9006873
@@ -21,6 +21,8 @@
 1. [vendor-purchased-2019](https://botometer.osome.iu.edu/bot-repository/datasets/vendor-purchased-2019/vendor-purchased-2019.tar.gz)
 + This dataset is proposed in "Arming the public with artificial intelligence to counter social bots."
 + Some of profile_image_url_https are not able to access (Page not found)
+
 2. [Fame for sale](https://botometer.osome.iu.edu/bot-repository/datasets/cresci-2015/cresci-2015.csv.tar.gz)
 + E13 and TFP are Human / FSF, INT, and TWT are Bot
+
 3. Unlabeled Tweet user data : We crawl about 830 of twitter user data by using tweepy API.
