@@ -12,8 +12,8 @@ Detailed content is written in this report!
 5. Final result is about 99% accuracy.
 
 ## Papers
-1. An enhanced graph‑based semi‑supervised learning algorithm to detect fake users on Twitter (uploaded in github)
-2. THE ART OF SOCIAL BOTS: A REVIEW AND A REFINED TAXONOMY (uploaded in github)
+1. An enhanced graph‑based semi‑supervised learning algorithm to detect fake users on Twitter
+2. THE ART OF SOCIAL BOTS: A REVIEW AND A REFINED TAXONOMY
 3. LOBO – Evaluation of Generalization Deficiencies in Twitter Bot Classifiers : https://arxiv.org/abs/1809.09684
 4. Better Safe Than Sorry: an Adversarial Approach to improve Social Bot Detection : https://arxiv.org/abs/1904.05132
 5. Using Improved Conditional Generative Adversarial Networks to Detect Social Bots on Twitter : https://ieeexplore.ieee.org/document/9006873
