@@ -17,7 +17,7 @@
 4. Better Safe Than Sorry: an Adversarial Approach to improve Social Bot Detection : https://arxiv.org/abs/1904.05132
 5. Using Improved Conditional Generative Adversarial Networks to Detect Social Bots on Twitter : https://ieeexplore.ieee.org/document/9006873
 
-## Dataset
+## Dataset Download [LINK]
 1. [vendor-purchased-2019](https://botometer.osome.iu.edu/bot-repository/datasets/vendor-purchased-2019/vendor-purchased-2019.tar.gz)
 + This dataset is proposed in "Arming the public with artificial intelligence to counter social bots."
 + Some of profile_image_url_https are not able to access (Page not found)
