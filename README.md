@@ -1,7 +1,7 @@
 # Report [LINK](https://docs.google.com/document/d/1O_iEl2x9zU2b3h1-YfiPune_lA1jrv59NLKKLneoFb8/edit)
 
-## Progress
-1. Getting 16 features per each extractor in .ipynb
+## Procedure
+1. We used 16 features per each extractor in .ipynb
 2. Bot_Feature_Extraction.ipynb -> bot_features.pkl
 3. Hum_Feature_Extraction.ipynb -> hum_features.pkl
 3. Unlabeled_Feature_Extraction.ipynb -> unlabeled_features.pkl
